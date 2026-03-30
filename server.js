@@ -9,7 +9,6 @@ connectDB();
 const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
-  'http://localhost:5174',
   'http://localhost:5000',
   'https://crm-frontend-k.vercel.app',
   'https://crm-backed-k.vercel.app',
