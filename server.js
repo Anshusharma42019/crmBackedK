@@ -11,6 +11,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:5000',
+  'https://crm-backed-k.vercel.app',
+  'https://crm-frontend-k.vercel.app',
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
